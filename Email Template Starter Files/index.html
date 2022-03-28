@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+body {
+	Margin: 0!important;
+	padding: 15px;
+	background-color: #FFF;
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+}
+.wrapper-inner {
+	width: 100%;
+	background-color: #eee;
+	max-width: 670px;
+	Margin: 0 auto;
+}
+table {
+	border-spacing: 0;
+	font-family: sans-serif;
+	color: #727f80;
+}
+.outer-table {
+	width: 100%;
+	max-width: 670px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+td {
+    padding: 0;
+}
+.header {
+    background-color: #C2C1C1;
+    border-bottom: 3px solid #81B9C3;
+}
+p {
+    Margin:0;
+}
+.header p {
+    text-align: center;
+    padding: 1%;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+/*--- End Outer Table 1 --*/
+.main-table-first {
+	width: 100%;
+	max-width: 610px;
+	Margin: 0 auto;
+	background-color: #FFF;
+	border-radius: 6px;
+	margin-top: 25px;
+}
+/*--- Start Two Column Sections --*/
+.two-column {
+    text-align: center;
+    font-size: 0;
+    padding: 5px 0 10px 0;
+}
+.two-column .section {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.two-column .content {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+.content {
+    width: 100%;
+    padding-top: 20px;
+}
+.center {
+    display: table;
+    Margin: 0 auto;
+}
+img {
+    border: 0;
+}
+img.logo {
+    float: left;
+    Margin-left: 5%;
+    max-width: 200px!important;
+}
+#callout {
+    float: right;
+    Margin: 4% 5% 2% 0;
+    height: auto;
+    overflow: hidden;
+}
+#callout img {
+    max-width: 20px;
+}
+.social {
+    list-style-type: none;
+    Margin-top: 1%;
+    padding: 0;
+}
+.social li {
+    display: inline-block;
+}
+.social li img {
+    max-width: 15px;
+    Margin-bottom: 0;
+    padding-bottom: 0;
+}
+/*--- Start Outer Table Banner Image, Text & Button --*/
+.image img {
+    width: 100%;
+    max-width: 670px;
+    height: auto;
+}
+.main-table {
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border-radius: 6px;
+}
+.one-column .inner-td {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+.inner-td {
+    padding: 10px;
+}
+.h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px;
+    color: #4A4A4A;
+}
+p.center {
+    text-align: center;
+    max-width: 580px;
+    line-height: 24px;
+}
+.button-holder-center {
+    text-align: center;
+    Margin: 5% 2% 3% 0;
+}
+.button-holder {
+    float: right;
+    Margin: 5% 0 3% 0;
+}
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    background: #81BAC6;
+    color: #FFF;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 28px;
+}
+/*--- Start Two Column Image & Text Sections --*/
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+.two-column .text {
+    padding: 10px 0;
+}
+/*--- Start 3 Column Image & Text Section --*/
+.outer-table-2 {
+	width: 100%;
+	max-width: 670px;
+	margin: 22px auto;
+	background-color: #C2C1C1;
+    border-bottom: 3px solid #81B9C3;
+    border-top: 3px solid #81B9C3;
+}
+.three-column {
+    text-align: center;
+    font-size: 0;
+    padding: 10px 0 30px 0;
+}
+.three-column .section {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.three-column .content {
+    font-size: 16px;
+    line-height: 20px;
+}
+.three-column img {
+    width: 100%;
+    max-width: 125px;
+    height: auto;
+}
+.outer-table-2 p {
+	margin-top: 6px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 23px;
+}
+/*--- Start Two Column Article Section --*/
+.outer-table-3 {
+    width: 100%;
+    max-width: 670px;
+    margin: 22px auto;
+    background-color: #C2C1C1;
+    border-top: 3px solid #81B9C3;
+}
+.h3 {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 600;
+	Margin-bottom: 8px;
+	color: #4A4A4A;
+}
+/*--- Start Bottom One Column Section --*/
+.inner-bottom {
+	padding: 22px;
+}
+.h1 {
+    text-align: center!important;
+    font-size: 25px!important;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px 0 20px 0;
+    color: #4A4A4A;
+}
+.inner-bottom p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+/*--- Start Footer Section --*/
+.footer {
+	width: 100%;
+	background-color: #C2C1C1;
+	Margin: 0 auto;
+    color: #FFF;
+}
+.footer  img {
+	max-width: 135px;
+	Margin: 0 auto;
+	display: block;
+	padding: 4% 0 1% 0;
+}
+p.footer {
+	text-align: center;
+	color: #FFF!important;
+	line-height: 30px;
+	padding-bottom: 4%;
+    text-transform: uppercase;
+}
+/*--- Media Queries --*/
+@media screen and (max-width: 400px) {
+	.h1 {
+		font-size: 22px;
+	}
+	.two-column .column, .three-column .column {
+		max-width: 100%!important;
+	}
+	.two-column img {
+		width: 100%!important;
+	}
+	.three-column img {
+		max-width: 60%!important;
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 400px) {
+
+	.two-column .column {
+		max-width: 50%!important;
+	}
+	.three-column .column {
+		max-width: 33%!important;
+}
+}
+@media screen and (max-width:768px) {
+img.logo {
+	float:none !important;
+	margin-left:0% !important;
+	max-width: 200px!important;
+}
+
+#callout {
+	float:none !important;
+	margin: 0% 0% 0% 0;
+	height: auto;
+	text-align:center;
+	overflow: hidden;
+}
+#callout img {
+    max-width:26px !important; 
+}
+.two-column .section {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two-column img {
+	width: 100% !important;
+ 	height: auto !important;
+}
+img.img-responsive {
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+}
+.content {
+	width: 100%;
+	padding-top:0px !important;
+}
+}
+</style>
+ </head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-inner">
+
+            <table class="outer-table">
+                <tr>
+                    <td class="header">
+                        <p><a href="#">Click to View this email in your browser.</a></p>
+                    </td>
+                </tr>
+            </table> <!-- End Outer Table -->
+
+            <table class="main-table-first">
+                <tr>
+                    <td class="two-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="w3newbie-logo.png" alt="" class="logo">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End First of Two Columns -->
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <div id="callout">
+                                                        <ul class="social">
+                                                            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+                                                            <li><a href="#"><img src="googleplus.png" alt=""></a></li>
+                                                            <li><a href="#"><img src="twitter.png" alt=""></a></li>
+                                                            <li><a href="#"><img src="youtube.png" alt=""></a></li>
+                                                            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End Second of Two Columns -->
+                    </td>
+                </tr>
+            </table> <!-- End Main Table First -->
+
+            <table class="outer-table">
+                <tr>
+                    <td class="image">
+                        <img src="green-background.png" alt="">
+                    </td>
+                </tr>
+            </table> <!-- End Banner Image -->
+
+            <table class="main-table">
+                <tr>
+                    <td class="one-column">
+                        <table width="100%">
+                            <tr>
+                                <td class="inner-td">
+                                    <p class="h2">Weekly Newsletter</p>
+                                    <p class="center">This template uses HTML and CSS to create a responsive email. It uses HTML tables in order to give email layouts its responsiveness and mobile-friendly version as well as cross-email-client compatibility.</p>
+                                    <p class="button-holder-center">
+                                        <a class="btn" href="#">Learn More</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr> <!-- End heading, paragraph, and CTA -->
+                <tr>
+                    <td class="two-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <img src="search.png" alt="" class="img-responsive">
+                                                    <p class="text">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor.</p>
+                                                </td> 
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End First of Two Columns -->
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <img src="chat.png" alt="" class="img-responsive">
+                                                    <p class="text">lorem ipsum dolor sit lorem ipsum dolor lorem ipsum dolor sit lorem ipsum dolor lorem ipsum dolor.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End Second of Two Columns -->
+                    </td>
+                </tr> <!-- End Two Column Section -->
+            </table> <!-- End Main Table -->
+
+            <table class="outer-table-2" style="background-color: #c2c1c1;">
+                <tr>
+                    <td class="three-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <img src="mouse.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text">
+                                                    <p>View emails on your mobile phone or tablet device.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End First Column of Three -->
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <img src="mac.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text">
+                                                    <p>View emails on your mobile phone or tablet device.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End Second Column of Three -->
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <img src="phone.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text">
+                                                    <p>View emails on your mobile phone or tablet device.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End Third Column of Three -->
+                    </td> <!-- End Three Column Section -->
+                </tr>
+            </table> <!-- End Outer Table 2 -->
+
+            <table class="main-table">
+                <tr>
+                    <td class="two-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <img src="pie-chart.png" alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text">
+                                                    <p class="h3">Article Content</p>
+                                                    <p>Lorem ipsum dolor sit amet, ex principes voluptatibus definitionem vix. His id dolor facilisi ullamcorper. Sit iisque delectus ad, vis et stet signiferumque.</p>
+                                                    <br />
+                                                    <p>Lorem ipsum dolor sit amet, ex principes voluptatibus definitionem vix. His id dolor facilisi ullamcorper. Sit iisque delectus ad, vis et stet signiferumque.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End first of two columns -->
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td class="text">
+                                                    <p class="h3">Article Content</p>
+                                                    <p>Lorem ipsum dolor sit amet, ex principes voluptatibus definitionem vix. His id dolor facilisi ullamcorper. Sit iisque delectus ad, vis et stet signiferumque.</p>
+                                                    <br />
+                                                    <p>Lorem ipsum dolor sit amet, ex principes voluptatibus definitionem vix. His id dolor facilisi ullamcorper. Sit iisque delectus ad, vis et stet signiferumque.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="users.png" alt="">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!-- End second of two columns -->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="one-column">
+                        <table width="100%">
+                            <tr>
+                                <td class="inner-bottom">
+                                    <p class="h1">The Real Story</p>
+                                    <p>Noster possit id nec, et per probo quando, vix ludus facilis mediocrem id. Malis conceptam vis no, zril quando usu at. Feugiat eloquentiam nec ne, habeo corpora moderatius his at, posse neglegentur ea ius. Sale falli et vis, ut mei offendit electram. At tota fabellas nec, quot nostrum ut eum, te quis dicam fuisset sit.</p>
+                                    <br />
+                                    <p>Lorem ipsum dolor sit amet, ex principes voluptatibus definitionem vix. His id dolor facilisi ullamcorper. Sit iisque delectus ad, vis et stet signiferumque. Tota zril utroque an ius, ut hinc scripta perpetua mel.
+                                    </p>
+                                    <div class="button-holder">
+                                        <a class="btn" href="#">Learn More</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table> <!-- End Main Table Section -->
+
+            <table class="outer-table-3">
+                <tr>
+                    <td class="one-column">
+                        <table width="100%">
+                            <tr>
+                                <td class="footer">
+                                    <img src="w3newbie-logo.png" alt="">
+                                    <p class="footer">
+                                        1000 Street Road, My City, My State 12345<br />
+                                        &copy; w3newbie, 2017.<br />
+                                        <a href="#">Unsubscribe</a>
+                                    </p>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table> <!-- End Outer Table 3 -->
+
+        </div> <!-- End Wrapper Inner -->
+    </div> <!-- End Wrapper -->
+</body>
+</html>
